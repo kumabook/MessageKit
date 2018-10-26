@@ -372,7 +372,7 @@ open class MessageLabel: UILabel {
 
     }
 
-  internal func handleGesture(_ touchLocation: CGPoint) -> Bool {
+  public func handleGesture(_ touchLocation: CGPoint) -> Bool {
 
         guard let index = stringIndex(at: touchLocation) else { return false }
 
